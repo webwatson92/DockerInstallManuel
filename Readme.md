@@ -30,5 +30,5 @@ C:\Users\HardFive\devApp: étant le path du dossier des projets
 ---
 
 
-![Docker Image](docker.png "Image de resultat final")
+![Docker Image](/docker.PNG "Image de resultat final")
 
