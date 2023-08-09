@@ -32,3 +32,40 @@ C:\Users\HardFive\devApp: étant le path du dossier des projets
 
 ![Docker Image](/docker.PNG "Image de resultat final")
 
+
+---
+
+## Création d'un container Linux au sein de notre Ubuntu
+
+- Ouvrir le powershell ou cm en administrateur
+```
+    wsl -d <distro name>
+    exemple : wsl -d Ubuntu-20.04
+```
+Le container de base pour les tests, vérification du bon fonction de votre installation
+```
+   docker run hello-world
+```
+
+## Docker compose
+l'application qui facilite l'hébergement de plusieurs container avec chacun une fonction de base
+Un container bdd, un container serveur etc...
+
+Dans cette section, nous allons utiliser **NEXTCLOUD**, qui est un service de synchroniseur de fichier  comme dropbox ou onedrive.
+
+Il est composer de deux parties, une partie qui gère la base de donnée et une autre qui s'occupe du serveur/code nextCloud
+
+```
+   docker-compose up -d
+```
+Vérification de son bon fonction via les logs
+```
+   docker-compose logs -f
+```
+![](/logs_docker.PNG "Résultat après le lancement de la commande.")
+
+Arrêt du service
+```
+   docker-compose down
+```
+
