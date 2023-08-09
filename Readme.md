@@ -3,6 +3,7 @@
   - wsl -l -v
   - wsl --install -d Ubuntu
   - wsl -l -o
+  - wsl --set-default : mettre par defaut
 
 ## Configure Ubuntu
 
@@ -25,4 +26,9 @@ l'option-v : permet de faire le mapping entre un repertoire du pc vers un contai
 ```
 
 C:\Users\HardFive\devApp: étant le path du dossier des projets
+
+---
+
+
+![Docker Image](docker.png "Image de resultat final")
 
