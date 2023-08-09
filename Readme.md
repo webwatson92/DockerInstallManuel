@@ -75,7 +75,7 @@ Arrêt du service
 - **[FORMATION BLOG](http://BLOG.parlons-digital.com/)**
 - **[PARLONS DIGITAL](http://www.parlons-digital.com/)**
 
-## Conctat
+## Conctats
 
 - **[Youtube formation](https://www.youtube.com/parlonsdiital/)**
 - **[Linkedin](https://www.linkedin.com/in/ouattaraelhadjy//)**
@@ -84,7 +84,7 @@ Arrêt du service
 - **[Telegram group ](https://t.me/parlonsd/)** 
 - **[Whatsapp Plateforme ](https://chat.whatsapp.com/JhXaVxWXmyN7E5FckGxrNQ/)** 
 
-## License
+## Licenses
 
 This fil open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
