@@ -1,10 +1,10 @@
-## Installation de la distro linux sur window 10
+# Installation de la distro linux sur window 10
 
   - wsl -l -v
   - wsl --install -d Ubuntu
   - wsl -l -o
 
-# Configure Ubuntu
+## Configure Ubuntu
 
 - sudo apt update
 - sudo apt upgrade
@@ -15,7 +15,7 @@ docker start id_container : demarrage
 docker stop id_container : arret
 docker rm id_container : pour delete le container
 
-# Utilise éfficacement un container docker
+## Utilise éfficacement un container docker
 
 l'option-v : permet de faire le mapping entre un repertoire du pc vers un container
 
